@@ -1,0 +1,58 @@
+*{
+    text-align  : center;
+}
+header{
+    font-family :'Courier New', Courier, monospace;
+    font-size   : 36px;
+    font-weight : bold;
+    margin      : auto;
+}
+
+p{
+    font-family : Helvetica, sans-serif;
+    font-size   : 16px;
+    text-align  : center;
+    margin      : auto;
+    padding     : 10px;
+}
+
+.cyan {
+    float       : right;
+    list-style  : inside;
+    font-family : Helvetica, sans-serif;
+    margin      : auto;
+    width       : 78.8%;
+    border      : 1px rgb(140, 199, 233);
+    padding     : 10px;
+    background-color: rgb(127, 225, 255);
+}
+
+.yell {
+    float       : right;
+    list-style  : inside;
+    font-family : Helvetica, sans-serif;
+    margin      : auto;
+    width       : 79%;
+    border      : 3px rgb(248, 192, 109);
+    padding     : 10px;
+    background-color: rgb(245, 243, 127);
+}
+
+label {
+    font-family : Helvetica, sans-serif;
+    font-size   : 24px;
+    font-weight : bold;
+}
+
+.nave{
+    float       : left;
+    list-style  : inside;
+    font-family : Impact, sans-serif;
+    font-size   : larger;
+    text-align  : left;
+    margin      : auto;
+    width       : 20%;
+    border      : 10px black;
+    background-color : black;
+    
+}
