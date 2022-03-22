@@ -1,19 +1,22 @@
-*{
-    text-align  : center;
 
-
-}
 header{
+    text-align  : center;
     font-family :'Courier New', Courier, monospace;
     font-size   : 36px;
     font-weight : bold;
     margin      : auto;
+    color       : aliceblue;
+}
+
+body{
+    text-align  : center;
+    background-color: rgb(17, 17, 17);
+    margin      : 20px;
 }
 
 p{
     font-family : Helvetica, sans-serif;
     font-size   : 16px;
-    text-align  : center;
     margin      : auto;
     padding     : 10px;
 }
@@ -40,7 +43,34 @@ p{
     background-color: rgb(245, 243, 127);
 }
 
+.oran {
+    float       : right;
+    list-style  : inside;
+    font-family : Helvetica, sans-serif;
+    text-align  : left;
+    line-height : 20px;
+    margin      : auto;
+    width       : 79%;
+    border      : 3px rgb(248, 103, 58);
+    padding     : 10px;
+    background-color: rgb(243, 172, 66);
+}
+
+.red{
+    float       : right;
+    list-style  : inside;
+    font-family : Helvetica, sans-serif;
+    text-align  : left;
+    line-height : 20px;
+    margin      : auto;
+    width       : 79%;
+    border      : 3px rgb(177, 25, 19);
+    padding     : 10px;
+    background-color: rgb(235, 77, 57); 
+}
+
 label {
+
     font-family : Helvetica, sans-serif;
     font-size   : 24px;
     font-weight : bold;
@@ -48,14 +78,29 @@ label {
 
 .nave{
     float       : left;
-    list-style  : inside;
+    list-style  : square;
     font-family : Impact, sans-serif;
     font-size   : larger;
     text-align  : left;
+    letter-spacing: 3px;
+
     margin      : auto;
     width       : 19%;
     border      : 10px black;
-    color       :aliceblue;
-    background-color : black;
-    
+    color       : aliceblue;
+}
+
+img{
+    border-radius: 50%;
+}
+
+a{
+    color        : currentColor;
+    text-decoration : none;
+}
+
+a:hover{
+
+    font-weight : 700;
+    color       : rgb(219, 60, 60);
 }
